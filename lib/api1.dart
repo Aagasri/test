@@ -17,6 +17,7 @@ class _api1State extends State<api1> {
       setState(() {
         a=json.decode(response.body);
         print(a);
+        print("git example");
       });
     }
   }
